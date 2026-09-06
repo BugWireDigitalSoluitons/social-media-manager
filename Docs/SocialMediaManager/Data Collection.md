@@ -20,8 +20,9 @@ Use append-only observations with deduplication for retries. Revised historical 
 
 ## Initial schedule
 
-- Account metrics and post discovery daily at a fixed time.
-- Post totals daily for the first 30 days; weekly for days 31–90; monthly afterward while supported. At modest volume, collect all accessible post totals daily if limits permit.
+- User-confirmed readiness scope: initially import the last 90 days of Facebook/Instagram posts, subject to authorized availability. Older-post import remains an extension, not a promise of retrospective observations.
+- Account metrics and post discovery daily at a fixed time. Desired account measurements include follower/subscriber count, views and likes where supported; preserve provider definitions and periods instead of assuming equivalent totals.
+- User-confirmed post cadence: daily for the first 30 days of post life, then weekly through one year while supported. Stop scheduled refresh after one year and keep history/tags until explicit deletion, subject to provider requirements. Schedule is not implemented or verified.
 - Re-fetch supported recent historical account periods for delayed reporting.
 - Seven-day and 30-day post comparisons use actual age at observation. Daily polling only approximates exact 24-hour results.
 - Stories, if included, require a separate capture policy because their availability can be short; exclude them from the first pilot until verified.

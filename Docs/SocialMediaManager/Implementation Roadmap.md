@@ -5,6 +5,8 @@ tags: [planning]
 ---
 # Implementation Roadmap
 
+Readiness interview steering: [[MVP Scope]] is the current product cut. Authentication remains first; post ingestion, snapshots and manual tagging are the first useful outcome. Basic comparisons belong in MVP. AI/agent access is entirely deferred. Await final shared-understanding confirmation/build instruction before starting implementation. Earlier milestone numbering is implementation sequencing, not authorization to postpone all user-facing tagging until optional agent work.
+
 ## 0 — Foundation (documentation complete)
 
 Requirements, selected stack, tenancy boundaries, security plan and memory recorded. This does not implement any runtime control.
@@ -31,9 +33,9 @@ Acceptance: manual and scheduled paths work; overlapping triggers do not duplica
 
 Introduce CI early with first executable code. Configure Semgrep, Gitleaks, Dependabot and Snyk on the authorized GitHub repository; add authenticated DAST on an isolated target. Decide IAST tooling explicitly. Verify production hostname/TLS, backup restore, deletion/export and audit. No deployment or repository creation has been requested as a separate external action yet.
 
-## 5 — Analysis and agent access
+## 5 — Complete MVP analysis; future agent access deferred
 
-Manual tags, same-age post comparisons, timeline, heatmap/table then optional word map. Add restricted read-only Hermes tools against the same backend. Add other providers/business outcomes incrementally after collection is trustworthy.
+Deliver manual tagging/post browsing alongside the first usable collection flow, including historical-post tagging and user-directed bulk tag normalization. Complete basic same-age comparisons by tag/format/weekday/time after collection is trustworthy. Richer timeline/heatmap/word-map views can follow as useful. All Hermes/MCP/AI interaction is outside MVP. Add other providers/business outcomes separately.
 
 ## Inputs to resolve during implementation
 

@@ -13,6 +13,7 @@ Primary memory for this project. The vault is nested at `Docs/SocialMediaManager
 - [[Data Collection]]
 - [[Security and Privacy]]
 - [[Implementation Roadmap]]
+- [[MVP Scope|Agreed MVP scope and first implementation gates]]
 - [[long-term/decisions-log|Decisions]]
 - [[Sources]]
 - [[daily/2026-09-05|Initial session]]
