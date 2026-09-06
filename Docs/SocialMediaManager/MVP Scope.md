@@ -1,11 +1,11 @@
 ---
 type: scope
-status: interview-decisions-confirmed-final-handoff-pending
+status: user-approved-ready-for-implementation
 updated: 2026-09-05
 ---
 # MVP Scope
 
-Consolidates Corey's answers in the readiness interview. Requirements are user-confirmed; no application behavior is implemented or verified. Final shared-understanding confirmation and subsequent build instruction are pending.
+Consolidates Corey's answers in the readiness interview. Corey confirmed the complete scope with "This sounds correct" on 2026-09-05; the interview is complete and no further scope confirmation is required. No application behavior is implemented or verified. Corey is choosing whether to begin implementation in this task or a fresh project task.
 
 ## Purpose and users
 

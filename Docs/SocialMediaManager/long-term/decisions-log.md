@@ -5,6 +5,10 @@ tags: [memory, decision]
 ---
 # Decisions
 
+## 2026-09-05 — Final scope approved
+
+Corey confirmed the consolidated MVP with "This sounds correct". [[MVP Scope]] is approved; readiness interview is complete. No further shared-understanding approval is needed. Implementation/session choice is next; no runtime work has been performed. Earlier pending-confirmation entries are historical.
+
 ## 2026-09-05 — Readiness interview, round 4 and consolidated MVP
 
 User-confirmed, not implemented/verified: post list includes date/platform/caption or description/available thumbnail/tags/original link. Desktop downtime and missed observations are accepted local-host risks. Stop refreshing posts after age one year but retain history/tags; disconnect is separate from deletion. Keep history until explicit deletion, subject to the previously accepted provider requirements; the user's GDPR reference is not a compliance finding. Keep backups on the same system for now; off-system backup is explicitly deferred. Do not silently introduce cloud backup.

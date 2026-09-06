@@ -5,7 +5,7 @@ tags: [planning]
 ---
 # Implementation Roadmap
 
-Readiness interview steering: [[MVP Scope]] is the current product cut. Authentication remains first; post ingestion, snapshots and manual tagging are the first useful outcome. Basic comparisons belong in MVP. AI/agent access is entirely deferred. Await final shared-understanding confirmation/build instruction before starting implementation. Earlier milestone numbering is implementation sequencing, not authorization to postpone all user-facing tagging until optional agent work.
+Readiness interview steering: Corey confirmed [[MVP Scope]]; the interview is complete and no further scope approval is pending. Authentication remains first; post ingestion, snapshots and manual tagging are the first useful outcome. Basic comparisons belong in MVP. AI/agent access is entirely deferred. Implementation begins when Corey starts the build task; he is choosing its session. Earlier milestone numbering is implementation sequencing, not authorization to postpone all user-facing tagging until optional agent work.
 
 ## 0 — Foundation (documentation complete)
 
